@@ -62,7 +62,7 @@ def catCommand(cmd, A):
 
 #f = open("tree1.txt","w")
 A = {}
-startPoint = '/home/izazm8'
+startPoint = '/'
 for root, dirs, files in os.walk(startPoint):
 	path=root.split(os.sep)
 	p = ""
